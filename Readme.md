@@ -29,11 +29,16 @@ You can also install without package-mamager
 
 ## Install 
 
+### Install with CDN
+
 ```bash
 wget https://cdn.jsdelivr.net/gh/langong-dev/love-blog/install.sh -O install-lb.sh
-
 bash install-lb.sh
 ```
+
+### Install with GitHub tag
+
+[Get install file](https://github.com/langong-dev/love-blog/releases/latest)
 
 Use `ls ~/LoveBlog` to check install
 
