@@ -87,6 +87,9 @@ elif [ $1 == "urepo" ]
 then
   cd ../config/output
   git pull
+elif [ $1 == "update" ]
+then
+  git pull
 else
   red " >> Error 1 Option not found"
   exit 1
