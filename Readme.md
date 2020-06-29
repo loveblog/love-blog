@@ -1,5 +1,7 @@
 # LanGong Love Blog
 
+![GitHub deployments](https://img.shields.io/github/deployments/langong-dev/love-blog/github-pages)  ![GitHub release (latest by date)](https://img.shields.io/github/v/release/langong-dev/love-blog)  ![GitHub top language](https://img.shields.io/github/languages/top/langong-dev/love-blog)  ![GitHub](https://img.shields.io/github/license/langong-dev/love-blog)
+
 LanGong Love Blog is a blog system for [GitHub Page](https://pages.github.io) in Linux and MacOS
 
 ## Runs in
@@ -40,6 +42,8 @@ Then you have to config Repo
 1. Creat a new repo named `USERNAME.github.io`
 2. Go to `Setting > GitHub Page` select your theme
 3. Go to terminal and input `cd ~/LoveBlog/love-blog && bash main.sh pubinit`
+
+Your website is `USERNAME.github.io`
 
 ## Use
 
