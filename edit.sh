@@ -17,7 +17,7 @@ edit-page(){
   echo -n " >> read > "
   read ch_page
   #echo " Continue $ch_page"
-  read ch_del < ../config/page/$ch_page/del || (red " >> Error 1 Option not found" && exit 1)
+  read ch_del < ../config/page/$ch_page/del || (red " >> Error 1 Option not found" && return 1)
   if [ $ch_del == "1" ]
   then
     red " >> Error 1 Option not found"
