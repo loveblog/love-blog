@@ -56,3 +56,23 @@ Command list:
 |config|Config your blog|
 
 Update Love Blog `git pull`
+
+## Show
+
+[https://langong-dev.github.io/loveblog-show/](https://langong-dev.github.io/loveblog-show/)
+
+## Beautify
+
+edit File `_config.yml`
+
+- theme: _THEME_ (GitHub Theme)
+- title: "_TITLE_" (Blog Title)
+- description: "_DESCRIPTION_" (Blog Description)
+
+Like:
+
+```yaml
+theme: jekyll-theme-cayman
+title: "Love Blog Show"
+description: "My Love Blog"
+```
