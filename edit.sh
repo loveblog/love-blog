@@ -21,7 +21,7 @@ edit-page(){
   if [ $ch_del == "1" ]
   then
     red " >> Error 1 Option not found"
-    exit 1
+    return 1
   fi
   green " >> Choose page successfully, and value is $ch_page"
   #echo " Continue"
@@ -60,6 +60,6 @@ edit-page(){
     fi
   else
     red " >> Error 1 Option not found"
-    exit 1
+    return 1
   fi
 }
