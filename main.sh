@@ -57,6 +57,13 @@ if [ $1 == "config" ]
 then
   blue " >> Config"
   config
+  blue " >> Do you want to continue to config?"
+  echo -n " >> read [N]o / [Y]es > "
+  read ynq
+  if [ $ynq == "Y" ] || [ $ynq == "y" ]
+  then
+    config
+  fi
 elif [ $1 == "publish" ]
 then
   blue " >> Publish"
@@ -90,6 +97,9 @@ then
 elif [ $1 == "update" ]
 then
   git pull
+elif [ $1 == "help" ]
+then 
+  . ./help.sh
 else
   red " >> Error 1 Option not found"
   exit 1
