@@ -42,11 +42,17 @@ bash install-lb.sh
 
 Use `ls ~/LoveBlog` to check install
 
+#### Tips
+
+> If you are using ZSH or BASH maybe FISH shell, you can restart your terminal to use command 'lb'
+>
+> If you are using other shells, you can use this command 'cd ~/LoveBlog/love-blog && bash main.sh'
+
 Then you have to config Repo
 
 1. Creat a new repo named `USERNAME.github.io`
 2. Go to `Setting > GitHub Page` select your theme
-3. Go to terminal and input `cd ~/LoveBlog/love-blog && bash main.sh pubinit`
+3. Go to terminal and input `lb pubinit`
 
 Your website is `USERNAME.github.io`
 
@@ -54,7 +60,7 @@ Your website is `USERNAME.github.io`
 
 Command list:
 
-`bash main.sh [Command]`
+`lb (OR 'bash main.sh') [Command]`
 
 |Command|Means|
 |:---:|:---:|
