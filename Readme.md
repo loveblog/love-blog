@@ -4,15 +4,19 @@
 
 LanGong Love Blog is a blog system for [GitHub Page](https://pages.github.io) in Linux and MacOS
 
-## Runs in
+蓝光 LoveBlog 是一个在GitHubPage上运行的静态博客系统，适用于 Linux 或 MacOS 操作系统。
+
+## Runs in 运行
 
 - [x] Linux ALL
 - [x] MacOS ALL
 - [ ] Windows ALL
 
-## Rely
+## Rely 依赖检查
 
 Love Blog is rely on `bash` and `git`, install rely on `wget`, so please install them first.
+
+Love Blog 依赖于`Bash` `git` `wget` ，所以请确保已经安装上述软件。
 
 ### Linux
 
@@ -29,22 +33,25 @@ You can also install without package-mamager
 
 ## Install 
 
-### Install with CDN
+### Install with CDN 使用CDN进行安装
 
 ```bash
 wget https://cdn.jsdelivr.net/gh/langong-dev/love-blog/install.sh -O install-lb.sh
 bash install-lb.sh
 ```
 
-### Install with GitHub tag
+### Install with GitHub tag 使用GitHub源码进行安装
 
 [Get install file](https://github.com/langong-dev/love-blog/releases/latest)
 
-Use `ls ~/LoveBlog` to check install
+1. Downloads `install.sh` 下载安装文件
+2. Put file into HOME-dir, (Like USER:TEST, HOME-dir:/home/TEST (/USERS/TEST in MacOS)) 放到家目录
+3. `bash install.sh`
 
 #### Tips
 
 > If you are using ZSH or BASH maybe FISH shell, you can restart your terminal to use command 'lb'
+> 如果您在使用 zsh 或 bash 还有 fish ，你可以在安装后重启控制台命令行
 >
 > If you are using other shells, you can use this command 'cd ~/LoveBlog/love-blog && bash main.sh'
 
