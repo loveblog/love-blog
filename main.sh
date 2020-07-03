@@ -98,7 +98,8 @@ elif [ $1 == "update" ]
 then
   git pull
 elif [ $1 == "help" ]
-then 
+then
+  blue " >> Loading..."
   . ./help.sh
 else
   red " >> Error 1 Option not found"

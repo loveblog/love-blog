@@ -31,14 +31,34 @@ echo "0" > LoveBlog/config/page/count
 blue " >> Creating All files"
 cd LoveBlog
 git clone https://github.com/langong-dev/love-blog
+cd love-blog
 
+
+als(){
+  cd $HOME
+
+  blue " >> Creating links"
+  
+  echo "cd ~/LoveBlog/love-blog && bash main.sh \$1 \$2 \$3 \$4" > .lovebloga
+  echo "alias lb='bash ~/.lovebloga'" >> .zshrc
+  echo "alias lb='bash ~/.lovebloga'" >> .bashrc
+  echo "alias lb='bash ~/.lovebloga'" >> .fishrc
+  
+  
+}
+
+bin-cmd(){
+  blue " >> Creating Exec"
+
+  sudo g++ cmd.cpp -o /bin/lb
+}
+
+#als
+
+bin-cmd
+
+blue " >> Quiting..."
 cd $HOME
 
-blue " >> Creating links"
-
-echo "cd ~/LoveBlog/love-blog && bash main.sh \$1 \$2 \$3 \$4" > .lovebloga
-echo "alias lb='bash ~/.lovebloga'" >> .zshrc
-echo "alias lb='bash ~/.lovebloga'" >> .bashrc
-echo "alias lb='bash ~/.lovebloga'" >> .fishrc
-
 green " >> Install successfully"
+
