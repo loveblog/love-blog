@@ -36,13 +36,13 @@ You can also install without package-mamager
 ### Install with CDN 使用CDN进行安装
 
 ```bash
-wget https://cdn.jsdelivr.net/gh/langong-dev/love-blog/install.sh -O install-lb.sh
+wget https://cdn.jsdelivr.net/gh/loveblog/love-blog/install.sh -O install-lb.sh
 bash install-lb.sh
 ```
 
 ### Install with GitHub tag 使用GitHub源码进行安装
 
-[Get install file](https://github.com/langong-dev/love-blog/releases/latest)
+[Get install file](https://github.com/loveblog/love-blog/releases/latest)
 
 1. Downloads `install.sh` 下载安装文件
 2. Put file into HOME-dir, (Like USER:TEST, HOME-dir:/home/TEST (/USERS/TEST in MacOS)) 放到家目录
@@ -81,7 +81,7 @@ Update Love Blog `git pull`
 
 ## Show
 
-[https://langong-dev.github.io/loveblog-show/](https://langong-dev.github.io/loveblog-show/)
+[https://loveblog.github.io/loveblog-show/](https://loveblog.github.io/loveblog-show/)
 
 ## Beautify
 
