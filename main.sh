@@ -57,7 +57,7 @@ if [ $1 == "config" ]
 then
   blue " >> Config 配置"
   config
-  while 1
+  while [ 1 ]
   do
     blue " >> Do you want to continue to config 你希望继续配置吗"
     echo -n " >> read 输入 [N]o / [Y]es > "

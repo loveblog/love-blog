@@ -22,5 +22,8 @@ creat-index(){
     echo >> ../config/output/index.md
   done
   echo >> ../config/output/index.md
-  echo "\n---\n\nPowered by [LanGong Love Blog](https://langong-dev.github.io/love-blog)" >> ../config/output/index.md
+  echo "---" >> ../config/output/index.md
+  echo >> ../config/output/index.md
+  echo >> ../config/output/index.md
+  echo "Powered by [LanGong Love Blog](https://langong-dev.github.io/love-blog)" >> ../config/output/index.md
 }
