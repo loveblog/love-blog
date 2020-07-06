@@ -10,25 +10,25 @@ green(){
   echo -e "\033[32m"$1"\033[0m"
 }
 
-blue " >> Welcome to LanGong Love Blog Install script"
+blue " >> Welcome to LanGong Love Blog Install script 欢迎来到LoveBlog安装脚本"
 blue " >> Please be sure you installed 'git'"
 sleep 2
 cd $HOME
 
-blue " >> Creating config file..."
+blue " >> Creating config file 创建配置文件"
 mkdir LoveBlog
 mkdir LoveBlog/config
 mkdir LoveBlog/config/page
 
-blue "    > Configing editor..."
+blue "    > Configing editor 配置编辑器"
 blue "    > Input your editor, like 'vim'"
-echo -n " >> read > "
+echo -n " >> read 输入 > "
 read editor
 
 echo $editor > LoveBlog/config/editor
 echo "0" > LoveBlog/config/page/count
 
-blue " >> Creating All files"
+blue " >> Creating All files 获取所有文件"
 cd LoveBlog
 git clone https://github.com/langong-dev/love-blog
 cd love-blog
@@ -57,7 +57,7 @@ bin-cmd(){
 
 bin-cmd
 
-blue " >> Quiting..."
+blue " >> Quiting 正常退出程序中"
 cd $HOME
 
 green " >> Install successfully"

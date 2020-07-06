@@ -8,6 +8,6 @@ new(){
   echo "new" > ../config/page/$new_num/url
   echo "Title" > ../config/page/$new_num/tit
   echo $new_num > ../config/page/count
-  green " >> Creat new page successfully"
+  green " >> Creat new page successfully 页面创建成功"
   date +%Y/%m/%d > ../config/page/$new_num/date
 }
