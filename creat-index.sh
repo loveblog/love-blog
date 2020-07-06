@@ -18,7 +18,7 @@ creat-index(){
     read dat < ../config/page/$i/date
     echo "### [$tit]($url.md)" >> ../config/output/index.md
     echo >> ../config/output/index.md
-    echo "\"$tit\"is creat in $dat, url-id is \"$url\"" >> ../config/output/index.md
+    echo "**$tit** is creat in **$dat**, url-id is **$url** " >> ../config/output/index.md
     echo >> ../config/output/index.md
   done
   echo >> ../config/output/index.md
