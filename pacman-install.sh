@@ -50,7 +50,7 @@ als(){
 bin-cmd(){
   blue " >> Creating Exec"
 
-  sudo g++ cmd-usrshare.cpp -o /bin/lb
+  g++ cmd-usrshare.cpp -o /bin/lb
 }
 
 #als
