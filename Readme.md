@@ -10,9 +10,13 @@ LanGong Love Blog is a blog system for [GitHub Page](https://pages.github.io) in
 
 - [x] Linux ALL
 - [x] MacOS ALL
-- [ ] Windows ALL
+- [ ] Windows ALL *Will be support in 1.0.11*
 
-## Get Love-blog
+## Home website 网站首页
+
+[https://loveblog.github.io](https://loveblog.github.io)
+
+## Get Love-blog 获取
 
 [ > Get ](https://loveblog.github.io)
 
